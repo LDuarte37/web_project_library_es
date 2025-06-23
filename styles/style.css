@@ -118,10 +118,8 @@
 
 .staff__cards {
   max-width: 760px;
-  margin: 68px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+  padding-top: 68px;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -138,6 +136,7 @@
   box-sizing: border-box;
   width: 360px;
   height: 420px;
+  overflow: scroll;
 }
 
 .card__content {
